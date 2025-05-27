@@ -66,23 +66,6 @@ export default function Team() {
                           className="wow scaleOutIn"
                           alt="Image Description"
                         />
-                        <div className="team-item-detail">
-                          <div className="team-social-links">
-                            {member.socials.map((social, socialIndex) => (
-                              <a
-                                href={social.url}
-                                target="_blank"
-                                rel="noopener nofollow"
-                                key={socialIndex}
-                              >
-                                <div className="visually-hidden">
-                                  {social.platform}
-                                </div>
-                                <i className={social.icon} />
-                              </a>
-                            ))}
-                          </div>
-                        </div>
                       </div>
                       <div className="team-item-descr">
                         <div className="team-item-name">{member.name}</div>
