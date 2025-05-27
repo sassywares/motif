@@ -1,8 +1,10 @@
 "use client";
+
 import { testimonials } from "@/data/testimonials";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
+
 export default function Testimonials() {
   return (
     <div className="container position-relative">
@@ -12,9 +14,9 @@ export default function Testimonials() {
             <div className="row">
               <div className="col-md-10 offset-md-1 text-center">
                 <h2 className="section-title mb-70 mb-sm-40">
-                  Resonance is trusted by
-                  <span className="mark-decoration-1">10,000+</span>
-                  customers.
+                  Motif is trusted by
+                  <span className="mark-decoration-1">hundreds</span>
+                  of clients across France.
                 </h2>
               </div>
             </div>
@@ -41,7 +43,7 @@ export default function Testimonials() {
                     <div>
                       <blockquote className="mb-0">
                         <div className="blockquote-icon" aria-hidden="true">
-                          ”
+                          "
                         </div>
                         <p>{testimonial.quote}</p>
                         <div className="section-line mt-40" />

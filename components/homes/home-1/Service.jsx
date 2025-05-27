@@ -9,7 +9,7 @@ export default function Service() {
         <div className="col-lg-6 mb-md-60 mb-sm-30">
           <h2 className="section-caption mb-xs-10">Our Services</h2>
           <h3 className="section-title mb-30">
-            <AnimatedText text="We provide the best development solutions." />
+            <AnimatedText text="We transform spaces with French elegance." />
           </h3>
           <div className="row">
             <div className="col-lg-10">
@@ -17,8 +17,8 @@ export default function Service() {
                 className="section-descr mb-50 mb-sm-30 wow fadeInUp"
                 data-wow-delay="0.4s"
               >
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
+                The power of thoughtful interior design helps us create
+                harmonious spaces that reflect your personality and lifestyle.
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Service() {
                 aria-selected="true"
                 data-bs-toggle="tab"
               >
-                Brand Strategy <span className="number">01</span>
+                Residential Design <span className="number">01</span>
               </a>
             </li>
             <li role="presentation">
@@ -47,7 +47,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Art Direction <span className="number">02</span>
+                Commercial Spaces <span className="number">02</span>
               </a>
             </li>
             <li role="presentation">
@@ -58,7 +58,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Creative Design <span className="number">03</span>
+                Space Planning <span className="number">03</span>
               </a>
             </li>
             <li role="presentation">
@@ -69,7 +69,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Development <span className="number">04</span>
+                Custom Furniture <span className="number">04</span>
               </a>
             </li>
             <li role="presentation">
@@ -80,7 +80,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Photography <span className="number">05</span>
+                Color Consultation <span className="number">05</span>
               </a>
             </li>
             <li role="presentation">
@@ -91,7 +91,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Marketing <span className="number">06</span>
+                Staging & Styling <span className="number">06</span>
               </a>
             </li>
           </ul>
@@ -110,11 +110,12 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Brand Strategy</h4>
+                  <h4 className="services-title">Residential Design</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Transform your home into a personalized sanctuary with our
+                    comprehensive residential design services. We create spaces
+                    that blend functionality and aesthetics while reflecting
+                    your unique lifestyle and preferences.
                   </p>
                 </div>
               </div>
@@ -135,11 +136,12 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Art Direction</h4>
+                  <h4 className="services-title">Commercial Spaces</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Create inspiring workplaces and commercial environments that
+                    reflect your brand identity while enhancing productivity and
+                    customer experience through thoughtful space planning and
+                    aesthetic choices.
                   </p>
                 </div>
               </div>
@@ -160,11 +162,12 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Creative Design</h4>
+                  <h4 className="services-title">Space Planning</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Optimize your interior layout for both functionality and
+                    flow. Our space planning services ensure efficient use of
+                    available area while creating harmonious environments that
+                    support your daily activities and needs.
                   </p>
                 </div>
               </div>
@@ -185,11 +188,12 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Development</h4>
+                  <h4 className="services-title">Custom Furniture</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Commission bespoke furniture pieces designed specifically
+                    for your space and needs. Our designers work with skilled
+                    artisans to create unique, high-quality furniture that
+                    perfectly complements your interior design.
                   </p>
                 </div>
               </div>
@@ -210,11 +214,12 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Photography</h4>
+                  <h4 className="services-title">Color Consultation</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Discover the perfect palette for your space with our expert
+                    color consultation. We help select hues that create the
+                    desired atmosphere, complement your furnishings, and reflect
+                    your personal style preferences.
                   </p>
                 </div>
               </div>
@@ -235,11 +240,12 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Marketing</h4>
+                  <h4 className="services-title">Staging & Styling</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Elevate your existing space with our styling services or
+                    prepare your property for sale with professional staging. We
+                    arrange furnishings and décor elements to showcase your
+                    space's potential and create an appealing atmosphere.
                   </p>
                 </div>
               </div>

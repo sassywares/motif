@@ -2,26 +2,29 @@ export const numberItems = [
   {
     id: 1,
     delay: "0.4s",
-    title: "28%",
-    description: "Resent tincidunt lacus sedenim posuere posuere nulla acusan.",
+    title: "95%",
+    description:
+      "Client satisfaction rate on our completed interior design projects.",
   },
   {
     id: 2,
     delay: "0.6s",
-    title: "1.5k",
-    description: "Curabitur eu quam auctor nuca convallis metus nec feugia.",
+    title: "250+",
+    description: "Residential and commercial spaces transformed across France.",
   },
   {
     id: 3,
     delay: "0.8s",
-    title: "30+",
-    description: "Pellentesque pharetra libero eget vestibulum ullamcorper.",
+    title: "15+",
+    description:
+      "Years of expertise in creating sophisticated interior environments.",
   },
   {
     id: 4,
     delay: "1s",
-    title: "2x",
-    description: "Suspendisse a scelerisque vitae rutrum posuere sec lacus.",
+    title: "12",
+    description:
+      "Design awards recognizing our innovative approach to interiors.",
   },
 ];
 export const numberItems2 = [

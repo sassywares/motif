@@ -228,12 +228,11 @@ export const boldOnepage = [
 ];
 
 export const mainDemoOnepage = [
-  { href: "#home", text: "Home", className: "active" },
-  { href: "#about", text: "About" },
-  { href: "#services", text: "Services" },
-  { href: "#portfolio", text: "Portfolio" },
-  { href: "#blog", text: "Blog" },
-  { href: "#contact", text: "Contact" },
+  { href: "/#home", text: "Home", className: "active" },
+  { href: "/#about", text: "About" },
+  { href: "/#services", text: "Services" },
+  { href: "/#portfolio", text: "Portfolio" },
+  { href: "/#contact", text: "Contact" },
 ];
 
 export const menuItems = [

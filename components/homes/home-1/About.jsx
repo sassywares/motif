@@ -38,17 +38,16 @@ export default function About() {
       <div className="col-lg-6 col-xl-5 offset-xl-1">
         <h4 className="h5">Our Mission</h4>
         <p className="text-gray">
-          We believe that a website is the foundation of a successful online
-          presence, and our goal is to help businesses establish a&nbsp;strong
-          digital presence. Our process begins with understanding your business
-          goals.
+          We believe that thoughtful interior design transforms spaces and
+          enhances daily living. Our goal is to create harmonious environments
+          that reflect your personality and&nbsp;lifestyle preferences.
         </p>
         <h4 className="h5">Our Vision</h4>
         <p className="text-gray">
-          We then use this information to create a custom website that not only
-          reflects your brand but also helps you achieve your business
-          objectives. From responsive design to intuitive navigation, we focus
-          on every detail.
+          We then use this insight to craft customized interiors that not only
+          showcase your aesthetic but also improve your quality of life. From
+          color palettes to furniture selection, we focus on every detail to
+          create cohesive spaces.
         </p>
       </div>
     </div>

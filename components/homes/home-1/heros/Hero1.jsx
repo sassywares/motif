@@ -1,17 +1,15 @@
 "use client";
+
 import AnimatedText from "@/components/common/AnimatedText";
-import ModalVideo from "@/components/common/ModalVideo";
 import { parallaxMouseMovement } from "@/utlis/parallax";
 import Image from "next/image";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export default function Hero1() {
   useEffect(() => {
     parallaxMouseMovement();
   }, []);
-  const [isOpen, setOpen] = useState(false);
-
   return (
     <>
       <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
@@ -25,12 +23,10 @@ export default function Hero1() {
                   className="section-caption mb-30 mb-xs-10 wow fadeInUp"
                   data-wow-duration="1.2s"
                 >
-                  Resonance Creative Studio
+                  Motif studio
                 </h2>
                 <h1 className="hs-title-1 mb-30">
-                  <AnimatedText
-                    text={"Grow your business with a new website."}
-                  />
+                  <AnimatedText text="Beautiful, functional interior spaces" />
                 </h1>
 
                 <p
@@ -38,8 +34,8 @@ export default function Hero1() {
                   data-wow-delay="0.6s"
                   data-wow-duration="1.2s"
                 >
-                  Resonance is a full-service creative studio creating beautiful
-                  digital experiences and products.
+                  Motif is a full-service interior design studio creating
+                  beautiful living spaces and distinctive environments.
                 </p>
                 <div
                   className="local-scroll mt-n10 wow fadeInUp wch-unset"
@@ -54,7 +50,7 @@ export default function Hero1() {
                     <span>Discover now</span>
                   </a>
                   <a
-                    onClick={() => setOpen(true)}
+                    href="#how-it-works"
                     className="link-hover-anim align-middle lightbox mfp-iframe mt-10"
                     data-link-animate="y"
                   >
@@ -140,13 +136,6 @@ export default function Hero1() {
         </div>
         {/* End Scroll Down */}
       </div>
-      <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
-        isOpen={isOpen}
-        videoId="jTea_8Fk5Ns"
-        setIsOpen={() => setOpen(false)}
-      />
     </>
   );
 }

@@ -15,12 +15,13 @@ export default function Team() {
               ”
             </div>
             <p>
-              We are strong team who brings innovative ideas into production.
+              We are a team of design professionals passionate about creating
+              livable, beautiful spaces.
             </p>
             <footer>
               <div className="section-line mb-10" />
-              Thomas Johnson
-              <div className="small">Developer, Co-founder</div>
+              Sophie Lefèvre
+              <div className="small">Design Director, Founder</div>
             </footer>
           </blockquote>
         </div>

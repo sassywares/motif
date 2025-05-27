@@ -1,6 +1,5 @@
 "use client";
 import Nav from "./components/Nav";
-import LanguageSelect from "./components/LanguageSelect";
 import Image from "next/image";
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 import Link from "next/link";
@@ -45,11 +44,8 @@ export default function Header1({ links }) {
           <Nav links={links} />
         </ul>
         <ul className="items-end clearlist local-scroll">
-          {/* Languages */}
-          <LanguageSelect />
-          {/* End Languages */}
           <li>
-            <a href="#contact" className="opacity-1 no-hover">
+            <a href="/#contact" className="opacity-1 no-hover">
               <span className="link-hover-anim underline" data-link-animate="y">
                 Let's work together
               </span>

@@ -7,10 +7,8 @@ import Hero1 from "@/components/homes/home-1/heros/Hero1";
 import { mainDemoOnepage } from "@/data/menu";
 
 export const metadata = {
-  title:
-    "Home 1 Main Demo Onepage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Motif studio",
+  description: "Interior design studio creating beautiful, functional spaces",
 };
 
 export default function Home1MainDemoOnepage() {

@@ -1,7 +1,7 @@
 export const teamMembers = [
   {
-    name: "Thomas Johnson",
-    role: "Developer, co-founder",
+    name: "Sophie Lefèvre",
+    role: "Design Director, Founder",
     image: "/assets/images/team/team-1.jpg",
     socials: [
       { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
@@ -10,8 +10,8 @@ export const teamMembers = [
     ],
   },
   {
-    name: "Emma Johnson",
-    role: "UI/UX Designer, co-founder",
+    name: "Antoine Dubois",
+    role: "Senior Interior Architect",
     image: "/assets/images/team/team-2.jpg",
     socials: [
       { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
@@ -20,8 +20,8 @@ export const teamMembers = [
     ],
   },
   {
-    name: "Marta Laning",
-    role: "Web developer",
+    name: "Élise Moreau",
+    role: "Textile Designer",
     image: "/assets/images/team/team-4.jpg",
     socials: [
       { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
@@ -30,8 +30,8 @@ export const teamMembers = [
     ],
   },
   {
-    name: "Marta Laning",
-    role: "Art director, designer",
+    name: "Lucas Beaumont",
+    role: "Furniture Designer",
     image: "/assets/images/team/team-3.jpg",
     socials: [
       { platform: "Facebook", icon: "fa-facebook-f", url: "#" },

@@ -17,9 +17,9 @@ import Testimonials from "@/components/homes/home-1/Testimonials";
 import Link from "next/link";
 import Testimonials2 from "./Teatimonials2";
 import Brands2 from "./Brands2";
-import dynamic from "next/dynamic";
 import Image from "next/image";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
+
 export default function Home1({ onePage = false, dark = false }) {
   return (
     <>
@@ -34,7 +34,7 @@ export default function Home1({ onePage = false, dark = false }) {
             <div className="col-md-6">
               <h2 className="section-caption mb-xs-10">Our Story</h2>
               <h3 className="section-title mb-0">
-                <AnimatedText text="Better way to create stanning layouts." />
+                <AnimatedText text="Empty spaces into timeless experiences." />
               </h3>
             </div>
             <div className="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
@@ -136,15 +136,13 @@ export default function Home1({ onePage = false, dark = false }) {
         <div className="container position-relative">
           <div className="row">
             <div className="col-lg-4 mb-md-60 mb-xs-50">
-              <h2 className="section-title mb-20 wow fadeInUp">
-                Check recent achievements.
-              </h2>
+              <h2 className="section-title mb-20 wow fadeInUp">Our Impact</h2>
               <p
                 className="section-descr mb-40 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                We provide the effective ideas that grow businesses of our
-                clients.
+                Stunning interiors that transform how our clients live and work
+                in their spaces.
               </p>
               <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
                 {onePage ? (
@@ -152,14 +150,14 @@ export default function Home1({ onePage = false, dark = false }) {
                     href="#contact"
                     className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                   >
-                    <span>Request Price</span>
+                    <span>Get a Quote</span>
                   </a>
                 ) : (
                   <Link
                     href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                     className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                   >
-                    <span>Request Price</span>
+                    <span>Get a Quote</span>
                   </Link>
                 )}
               </div>
@@ -202,8 +200,9 @@ export default function Home1({ onePage = false, dark = false }) {
           <div className="row text-center wow fadeInUp">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
               <p className="section-descr mb-50 mb-sm-30">
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
+                The art of French interior design allows us to transform spaces
+                into timeless sanctuaries that reflect personality and enhance
+                daily living.
               </p>
               <div className="local-scroll">
                 {onePage ? (
@@ -251,6 +250,7 @@ export default function Home1({ onePage = false, dark = false }) {
         <Features />
       </section>
       <section
+        id="how-it-works"
         className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}
       >
         <div className="container position-relative">
@@ -311,7 +311,7 @@ export default function Home1({ onePage = false, dark = false }) {
                 data-wow-duration="1.2s"
                 data-wow-offset={255}
               >
-                <h2 className="section-title mb-50 mb-sm-20">How we work?</h2>
+                <h2 className="section-title mb-50 mb-sm-20">Our Process</h2>
                 <Faq />
                 <div className="local-scroll">
                   {onePage ? (
@@ -319,14 +319,14 @@ export default function Home1({ onePage = false, dark = false }) {
                       href="#contact"
                       className="btn btn-mod btn-large btn-round btn-hover-anim"
                     >
-                      <span>Start a Project</span>
+                      <span>Start Your Project</span>
                     </a>
                   ) : (
                     <Link
                       href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                       className="btn btn-mod btn-large btn-round btn-hover-anim"
                     >
-                      <span>Start a Project</span>
+                      <span>Start Your Project</span>
                     </Link>
                   )}
                 </div>
@@ -342,39 +342,6 @@ export default function Home1({ onePage = false, dark = false }) {
         className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}
       >
         <Promo />{" "}
-      </section>
-      <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        }`}
-        id="blog"
-      >
-        <div className="container position-relative">
-          <div className="row mb-60 mb-xs-30">
-            <div className="col-md-6">
-              <h2 className="section-caption mb-xs-10">Our Blog</h2>
-              <h3 className="section-title mb-0">
-                <span className="wow charsAnimIn" data-splitting="chars">
-                  The latest news
-                </span>
-              </h3>
-            </div>
-            <div className="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
-              <Link
-                href={`/main-blog-columns-2col`}
-                className="link-hover-anim underline align-middle"
-                data-link-animate="y"
-              >
-                Read more in our blog <i className="mi-arrow-right size-18" />
-              </Link>
-            </div>
-          </div>
-          <Blog />
-          {/* Blog Posts Grid */}
-
-          {/* End Blog Posts Grid */}
-        </div>
       </section>
       <section
         className="page-section bg-dark-1 bg-dark-alpha-90 light-content"

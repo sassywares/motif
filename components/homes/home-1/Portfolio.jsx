@@ -1,20 +1,25 @@
 "use client";
+
 import AnimatedText from "@/components/common/AnimatedText";
 import { portfolios1 } from "@/data/portfolio";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { Gallery, Item } from "react-photoswipe-gallery";
+
 const filters = [
-  { name: "All works", category: "all" },
-  { name: "Branding", category: "branding" },
-  { name: "Design", category: "design" },
-  { name: "Development", category: "development" },
+  { name: "All projects", category: "all" },
+  { name: "Residential", category: "residential" },
+  { name: "Commercial", category: "commercial" },
+  { name: "Hospitality", category: "hospitality" },
 ];
+
 export default function Portfolio() {
-  const [currentCategory, setCurrentCategory] = useState("all");
-  const isotopContainer = useRef();
   const isotope = useRef();
+  const isotopContainer = useRef();
+
+  const [currentCategory, setCurrentCategory] = useState("all");
+
   const initIsotop = async () => {
     const Isotope = (await import("isotope-layout")).default;
     const imagesloaded = (await import("imagesloaded")).default;
@@ -48,7 +53,7 @@ export default function Portfolio() {
         <div className="col-lg-5">
           <h2 className="section-caption mb-xs-10">Our Portfolio</h2>
           <h3 className="section-title mb-0">
-            <AnimatedText text=" Creativity meets technology here." />
+            <AnimatedText text="Showcasing our finest interior designs." />
           </h3>
         </div>
         <div className="col-lg-7">
@@ -108,10 +113,7 @@ export default function Portfolio() {
                   </div>
                 </a>
               ) : (
-                <Link
-                  href={`/main-portfolio-single-1/${item.id}`}
-                  className={item.linkClassName}
-                >
+                <a className={item.linkClassName}>
                   <div className="work-img">
                     <div className="work-img-bg " />
                     <Image
@@ -126,7 +128,7 @@ export default function Portfolio() {
                     <h3 className="work-title">{item.title}</h3>
                     <div className="work-descr">{item.description}</div>
                   </div>
-                </Link>
+                </a>
               )}
             </li>
           ))}
