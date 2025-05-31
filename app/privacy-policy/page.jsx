@@ -69,7 +69,7 @@ export default function PrivacyPolicyPage() {
                     <strong>Company</strong> (referred to as either &quot;the
                     Company&quot;, &quot;We&quot;, &quot;Us&quot; or
                     &quot;Our&quot; in this Agreement) refers to Motif studio,
-                    123 Main St, Hamburg, Germany.
+                    123 Main St, Paris, France.
                   </p>
                 </li>
                 <li>
@@ -82,7 +82,7 @@ export default function PrivacyPolicyPage() {
                 </li>
                 <li>
                   <p>
-                    <strong>Country</strong> refers to: Arkansas, United States
+                    <strong>Country</strong> refers to: Paris, France
                   </p>
                 </li>
                 <li>
