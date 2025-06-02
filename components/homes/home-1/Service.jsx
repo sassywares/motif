@@ -123,7 +123,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-1.jpg"
+                src="/assets/images/services/residential.jpg"
                 alt="Image Description"
               />
             </div>
@@ -149,7 +149,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-2.jpg"
+                src="/assets/images/services/commercial.jpg"
                 alt="Image Description"
               />
             </div>
@@ -175,7 +175,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-3.jpg"
+                src="/assets/images/services/space-planning.jpg"
                 alt="Image Description"
               />
             </div>
@@ -201,7 +201,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-4.jpg"
+                src="/assets/images/services/custom-furniture.jpg"
                 alt="Image Description"
               />
             </div>
@@ -227,7 +227,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-5.jpg"
+                src="/assets/images/services/color-consultation.jpg"
                 alt="Image Description"
               />
             </div>
@@ -253,7 +253,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-6.jpg"
+                src="/assets/images/services/staging.jpg"
                 alt="Image Description"
               />
             </div>

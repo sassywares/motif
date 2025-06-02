@@ -158,7 +158,7 @@ export default function Contact() {
         </div>
         <div className="col-md-6 d-flex align-items-stretch">
           <Image
-            src="/assets/images/full-width-images/section-bg-2.jpg"
+            src="/assets/images/contact.jpg"
             alt="Contact Map"
             width={600}
             height={450}

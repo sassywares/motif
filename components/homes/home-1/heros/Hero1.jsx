@@ -73,7 +73,7 @@ export default function Hero1() {
                     data-wow-duration="1.75s"
                   >
                     <Image
-                      src="/assets/images/stack-image-1.jpg"
+                      src="/assets/images/hero-cards/card-1.jpg"
                       alt="Image Description"
                       width={600}
                       height={800}
@@ -92,7 +92,7 @@ export default function Hero1() {
                     <Image
                       width={600}
                       height={800}
-                      src="/assets/images/stack-image-2.jpg"
+                      src="/assets/images/hero-cards/card-2.jpg"
                       alt="Image Description"
                     />
                   </div>
@@ -109,7 +109,7 @@ export default function Hero1() {
                     <Image
                       width={600}
                       height={800}
-                      src="/assets/images/stack-image-3.jpg"
+                      src="/assets/images/hero-cards/card-3.jpg"
                       alt="Image Description"
                     />
                   </div>

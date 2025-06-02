@@ -3,19 +3,19 @@ export const testimonials = [
     quote: `Motif transformed our space into something truly extraordinary. Their attention to detail and understanding of our vision exceeded all expectations. The blend of contemporary French design with personal touches makes our home feel both elegant and welcoming.`,
     author: "Sophie Laurent",
     role: "Homeowner",
-    image: "/assets/images/ts1-user.jpg",
+    image: "/assets/images/testimonials/sophie.jpg",
   },
   {
     quote: `Working with Motif Studio was a revelation. Their team approached our commercial project with creativity and precision, delivering a space that perfectly represents our brand while maintaining the timeless elegance of French design principles.`,
     author: "Jean-Pierre Dubois",
     role: "Restaurant Owner",
-    image: "/assets/images/ts1-user.jpg",
+    image: "/assets/images/testimonials/jean-pierre.jpg",
   },
   {
     quote: `The designers at Motif have an exceptional eye for combining traditional French aesthetics with modern functionality. They've created a living space that feels both luxurious and comfortable - exactly what we were hoping for.`,
     author: "Marie Clement",
     role: "Apartment Owner",
-    image: "/assets/images/ts1-user.jpg",
+    image: "/assets/images/testimonials/marie.jpg",
   },
 ];
 

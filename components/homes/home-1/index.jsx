@@ -129,8 +129,7 @@ export default function Home1({ onePage = false, dark = false }) {
       <ParallaxContainer
         className="page-section bg-dark-1 bg-dark-alpha-90 parallax-5 light-content"
         style={{
-          backgroundImage:
-            "url(/assets/images/full-width-images/section-bg-2.jpg)",
+          backgroundImage: "url(/assets/images/banner.jpg)",
         }}
       >
         <div className="container position-relative">
@@ -243,8 +242,7 @@ export default function Home1({ onePage = false, dark = false }) {
       <section
         className="page-section bg-dark bg-dark-alpha-70 light-content"
         style={{
-          backgroundImage:
-            "url(/assets/images/full-width-images/section-bg-4.jpg)",
+          backgroundImage: "url(/assets/images/cover.jpg)",
         }}
       >
         <Features />
@@ -267,7 +265,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   <Image
                     width={386}
                     height={400}
-                    src="/assets/images/promo-3.jpg"
+                    src="/assets/images/process-cards/card-1.jpg"
                     alt="Image Description"
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
@@ -278,7 +276,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   <Image
                     width={810}
                     height={512}
-                    src="/assets/images/promo-4.jpg"
+                    src="/assets/images/process-cards/card-2.jpg"
                     alt="Image Description"
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
@@ -294,7 +292,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   <Image
                     width={386}
                     height={500}
-                    src="/assets/images/promo-5.jpg"
+                    src="/assets/images/process-cards/card-3.jpg"
                     alt="Image Description"
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
@@ -346,8 +344,7 @@ export default function Home1({ onePage = false, dark = false }) {
       <section
         className="page-section bg-dark-1 bg-dark-alpha-90 light-content"
         style={{
-          backgroundImage:
-            "url(/assets/images/full-width-images/section-bg-2.jpg)",
+          backgroundImage: "url(/assets/images/banner.jpg)",
         }}
       >
         <NewsLetter />

@@ -2,7 +2,7 @@ export const teamMembers = [
   {
     name: "Sophie Lefèvre",
     role: "Design Director, Founder",
-    image: "/assets/images/team/team-1.jpg",
+    image: "/assets/images/team/sophie.jpg",
     socials: [
       { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
       { platform: "Twitter", icon: "fa-twitter", url: "#" },
@@ -12,7 +12,7 @@ export const teamMembers = [
   {
     name: "Antoine Dubois",
     role: "Senior Interior Architect",
-    image: "/assets/images/team/team-2.jpg",
+    image: "/assets/images/team/antoine.jpg",
     socials: [
       { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
       { platform: "Twitter", icon: "fa-twitter", url: "#" },
@@ -22,7 +22,7 @@ export const teamMembers = [
   {
     name: "Élise Moreau",
     role: "Textile Designer",
-    image: "/assets/images/team/team-4.jpg",
+    image: "/assets/images/team/elise.jpg",
     socials: [
       { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
       { platform: "Twitter", icon: "fa-twitter", url: "#" },
@@ -32,7 +32,7 @@ export const teamMembers = [
   {
     name: "Lucas Beaumont",
     role: "Furniture Designer",
-    image: "/assets/images/team/team-3.jpg",
+    image: "/assets/images/team/lucas.jpg",
     socials: [
       { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
       { platform: "Twitter", icon: "fa-twitter", url: "#" },
