@@ -30,6 +30,7 @@ export default function Team() {
         <div className="col-md-6 relative">
           <div>
             <Swiper
+              loop
               spaceBetween={0}
               slidesPerView={2}
               breakpoints={{

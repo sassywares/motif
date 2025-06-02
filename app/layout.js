@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "swiper/css";
 import "../public/assets/css/styles.css";
 import "jarallax/dist/jarallax.min.css";
@@ -70,6 +71,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="appear-animate body">{children}</body>
+      <GoogleAnalytics gaId="G-DBF4L1Y4LQ" />
     </html>
   );
 }
